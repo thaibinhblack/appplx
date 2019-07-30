@@ -8,6 +8,12 @@ import router from './router';
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbvue/build/css/mdb.css';
 import store from './store'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+
+Vue.use(Vuetify)
+
+
 Vue.config.productionTip = false;
 
 new Vue({
